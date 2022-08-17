@@ -6,10 +6,32 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
+    <link rel="license" href="https://www.google.com">  
+    <link rel="stylesheet" href="styles.css"> 
   </head>
-  <body>
-    <div>
-      Hellow World
-    </div>
+  <body class="container">
+    <div>Experimental Website</div>
+    <form action="/test">
+      <label for="name">Enter your details: </label><br>
+      <input id="name" type="text"><br>
+      <label>Select correct option</label><br>
+      <input id="multiselecta" type="checkbox" value="A">
+      <label for="multiselecta">A</label><br>
+      <input id="multiselectb" type="checkbox" value="B">
+      <label for="multiselectb">B</label><br>
+      <input id="multiselectc" type="checkbox" value="C">
+      <label for="multiselectc">C</label><br>
+      <input id="multiselectd" type="checkbox" value="D">
+      <label for="multiselectd">D</label><br>
+      <select>
+        <option>a</option>
+        <option>b</option>
+        <option>c</option>
+        <option>d</option>
+      </select><br>
+      <input type="submit" value="Submit"><input type="reset" value="Reset">
+    </form>
+    <div class="tooltipContainer"></div>
   </body>
+  <script src="scripts/index.js"></script>
 </html>
