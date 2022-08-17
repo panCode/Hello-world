@@ -1,0 +1,15 @@
+.tooltipContainer {
+  position: absolute;
+  min-width: 50px;
+  max-width: 200px;
+  background-color: black;
+  color: white;
+  opacity: 0.8;
+  padding: 4px;
+  border-radius: 8px;
+  display: none;
+}
+
+.container {
+  padding: 10px;
+}
